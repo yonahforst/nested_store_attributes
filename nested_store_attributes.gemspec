@@ -7,11 +7,10 @@ require "nested_store_attributes/version"
 Gem::Specification.new do |s|
   s.name        = "nested_store_attributes"
   s.version     = NestedStoreAttributes::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of NestedStoreAttributes."
-  s.description = "TODO: Description of NestedSAtttoreributes."
+  s.authors     = ["Yonah Forst"]
+  s.email       = ["yonaforst@hotmail.com"]
+  s.summary     = "'Accept_nested_attributes_for' for collections stored in a serialized field or json column"
+  s.description = "Access hashes stored on the model (serialzed to text or postgres json) using a similar syntax to accepts_nested_attributes_for "
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
